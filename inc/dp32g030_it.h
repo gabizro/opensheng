@@ -17,8 +17,8 @@
 *******************************************************************************/
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __dp32g030_IT_H
-#define __dp32g030_IT_H
+#ifndef __DP32G030_IT_H
+#define __DP32G030_IT_H
 
 /* Includes ------------------------------------------------------------------*/
 #include "dp32g030_lib.h"
@@ -81,6 +81,6 @@ void EXTI15_10_IRQHandler(void);
 void RTCAlarm_IRQHandler(void);
 void USBWakeUp_IRQHandler(void);
 					 
-#endif /* __dp32g030_IT_H */
+#endif /* __DP32G030_IT_H */
 
 /******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/

@@ -19,8 +19,8 @@
 *******************************************************************************/
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __dp32g030_MAP_H
-#define __dp32g030_MAP_H
+#ifndef __DP32G030_MAP_H
+#define __DP32G030_MAP_H
 
 #ifndef EXT
   #define EXT extern
@@ -403,6 +403,6 @@ typedef struct
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 
-#endif /* __dp32g030_MAP_H */
+#endif /* __DP32G030_MAP_H */
 
 /******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/

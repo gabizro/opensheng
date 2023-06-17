@@ -23,7 +23,7 @@ CFLAGS += -I./src
 LSCRIPT = ./ld/dp32g030.ld
 LFLAGS += -T$(LSCRIPT)
 
-OBJS = inc/startup_dp32g030.o src/main.o inc/dp32g030_rcc.o inc/dp32g030_gpio.o
+OBJS = asm/startup_dp32g030.o src/main.o inc/dp32g030_rcc.o inc/dp32g030_gpio.o
 
 all: $(TARGET).bin
 
@@ -46,10 +46,10 @@ main.o: src/main.c
 	@echo Compiling: $<
 	$(CC) -c $(CFLAGS) -I. $< -o inc/$@
 
-%.o: inc/%.S
+%.o: asm/%.S
 	@echo
 	@echo Assembling: $<
-	$(AS) $(ASFLAGS) -o inc/$@ $< -alh=inc/$*.lst
+	$(AS) $(ASFLAGS) -o asm/$@ $< -alh=asm/$*.lst
 
 clean:
 	@echo

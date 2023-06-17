@@ -1,6 +1,10 @@
 #include "preload.h"
 
 
+void SystemInit() {
+
+}
+
 void setup() {
 
 }

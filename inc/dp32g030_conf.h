@@ -1,24 +1,5 @@
-/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
-* File Name          : stm32f10x_conf.h
-* Author             : MCD Application Team
-* Date First Issued  : 09/29/2006
-* Description        : Library configuration file.
-********************************************************************************
-* History:
-* 02/05/2007: V0.1
-* 09/29/2006: V0.01
-********************************************************************************
-* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
-* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
-* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
-* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
-* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
-* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
-*******************************************************************************/
-
-/* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __STM32F10x_CONF_H
-#define __STM32F10x_CONF_H
+#ifndef __DP32G030_CONF_H
+#define __DP32G030_CONF_H
 
 /* Includes ------------------------------------------------------------------*/
 /* Exported types ------------------------------------------------------------*/
@@ -30,10 +11,6 @@
 /************************************* ADC ************************************/
 #define _ADC
 #define _ADC1
-#define _ADC2
-
-/************************************* CAN ************************************/
-#define _CAN
 
 /************************************* DMA ************************************/
 #define _DMA
@@ -53,9 +30,6 @@
 #define _GPIOA
 #define _GPIOB
 #define _GPIOC
-#define _GPIOD
-#define _GPIOE
-#define _AFIO
 
 /************************************* I2C ************************************/
 #define _I2C
@@ -70,16 +44,15 @@
 #define _SCB
 
 /************************************* BKP ************************************/
-#define _BKP
+#define _CMP
 
 /************************************* PWR ************************************/
 #define _PWR
 
-/************************************* RCC ************************************/
-#define _RCC
-
-/************************************* RTC ************************************/
-#define _RTC
+/************************************* PWR ************************************/
+#define _PWM
+#define _PWM0
+#define _PWM1
 
 /************************************* SPI ************************************/
 #define _SPI
@@ -89,20 +62,18 @@
 /************************************* SysTick ********************************/
 #define _SysTick
 
-/************************************* TIM1 ***********************************/
-#define _TIM1
 
 /************************************* TIM ************************************/
 #define _TIM
+#define _TIM0
+#define _TIM1
 #define _TIM2
-#define _TIM3
-#define _TIM4
 
 /************************************* USART **********************************/
-#define _USART
-#define _USART1
-#define _USART2
-#define _USART3
+#define _UART
+#define _UART0
+#define _UART1
+#define _UART2
 
 /************************************* WWDG ***********************************/
 #define _WWDG
@@ -131,6 +102,5 @@
   #define assert(expr) ((void)0)
 #endif /* DEBUG */
 
-#endif /* __STM32F10x_CONF_H */
+#endif /* __DP32G030_CONF_H */
 
-/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/

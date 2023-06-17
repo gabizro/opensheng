@@ -19,8 +19,8 @@
 *******************************************************************************/
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __dp32g030_LIB_H
-#define __dp32g030_LIB_H
+#ifndef __DP32G030_LIB_H
+#define __DP32G030_LIB_H
 
 /* Includes ------------------------------------------------------------------*/
 #include "dp32g030_map.h"
@@ -44,6 +44,6 @@
 /* Exported functions ------------------------------------------------------- */
 void debug(void);
 
-#endif /* __dp32g030_LIB_H */
+#endif /* __DP32G030_LIB_H */
 
 /******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/

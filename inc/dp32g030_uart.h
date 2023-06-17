@@ -19,8 +19,8 @@
 *******************************************************************************/
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __dp32g030_USART_H
-#define __dp32g030_USART_H
+#ifndef __DP32G030_UART_H
+#define __DP32G030_UART_H
 
 /* Includes ------------------------------------------------------------------*/
 #include "dp32g030_map.h"
@@ -214,6 +214,6 @@ void USART_ClearFlag(USART_TypeDef* USARTx, u16 USART_FLAG);
 ITStatus USART_GetITStatus(USART_TypeDef* USARTx, u16 USART_IT);
 void USART_ClearITPendingBit(USART_TypeDef* USARTx, u16 USART_IT);
 
-#endif /* __dp32g030_USART_H */
+#endif /* __DP32G030_USART_H */
 
 /******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/

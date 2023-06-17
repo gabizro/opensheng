@@ -19,8 +19,8 @@
 *******************************************************************************/
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __dp32g030_TYPE_H
-#define __dp32g030_TYPE_H
+#ifndef __DP32G030_TYPE_H
+#define __DP32G030_TYPE_H
 
 /* Includes ------------------------------------------------------------------*/
 /* Exported types ------------------------------------------------------------*/
@@ -71,6 +71,6 @@ typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
 
-#endif /* __dp32g030_TYPE_H */
+#endif /* __DP32G030_TYPE_H */
 
 /******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/

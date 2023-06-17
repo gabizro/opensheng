@@ -19,8 +19,8 @@
 *******************************************************************************/
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __dp32g030_NVIC_H
-#define __dp32g030_NVIC_H
+#ifndef __DP32G030_NVIC_H
+#define __DP32G030_NVIC_H
 
 /* Includes ------------------------------------------------------------------*/
 #include "dp32g030_map.h"
@@ -250,6 +250,6 @@ ITStatus NVIC_GetSystemHandlerActiveBitStatus(u32 SystemHandler);
 u32 NVIC_GetFaultHandlerSources(u32 SystemHandler);
 u32 NVIC_GetFaultAddress(u32 SystemHandler);
 
-#endif /* __dp32g030_NVIC_H */
+#endif /* __DP32G030_NVIC_H */
 
 /******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
